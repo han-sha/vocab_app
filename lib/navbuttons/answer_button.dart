@@ -51,9 +51,12 @@ class AnswerButtonState extends State<AnswerButton> {
 
   @override
   Widget build(BuildContext context){
-    return new FlatButton(
+    return new TextButton(
            onPressed: _onTap,
-           padding: new EdgeInsets.all(9.0), //ternary operator
+        style: ButtonStyle(
+        padding: MaterialStateProperty.all<EdgeInsets>(
+            EdgeInsets.all(9.0)),
+         ),
            child: new Container(
            width: 250.0,
            height: 70.0,

@@ -10,11 +10,11 @@ Future<bool> exitAlertBox(BuildContext context){
           'are you sure?'
         ),
         actions: [
-          FlatButton(
+          TextButton(
             child: Text('YES'),
             onPressed: ()=> Navigator.of(context).pop(true),
           ),
-          FlatButton(
+          TextButton(
             child: Text('NO'),
             onPressed: ()=> Navigator.of(context).pop(false),
           )

@@ -44,10 +44,11 @@ class _LevelUpButtonState extends State<LevelUpButton>
     return Container(
       width: 200.0 * Curves.bounceInOut.transform(_sizeController.value),
       height: 90.0 * Curves.bounceInOut.transform(_sizeController.value),
-      child: RaisedButton(
-          color: widget.buttonColor,
+      child: ElevatedButton(
+      style: ElevatedButton.styleFrom(
+          backgroundColor: widget.buttonColor,
           shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(30.0)),
-          elevation: 6.0,
+          elevation: 6.0),
           onPressed: ()=> levelPageRedirect(
               context: widget.pageContext,
               prefs: widget.prefs,

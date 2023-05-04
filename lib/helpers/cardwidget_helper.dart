@@ -42,8 +42,11 @@ List<Widget> widgetGen({Vocab vocab, bool checkOrder, Size screenSize, double ca
         child: new Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              new FlatButton(
-                  padding: new EdgeInsets.all(0.0),
+              new TextButton(
+                  style: ButtonStyle(
+                    padding: MaterialStateProperty.all<EdgeInsets>(
+                        EdgeInsets.all(0)),
+                  ),
                   onPressed: () {},
                   child: new Container(
                     height: 60.0, width: 130.0, alignment: Alignment.center,
@@ -53,8 +56,11 @@ List<Widget> widgetGen({Vocab vocab, bool checkOrder, Size screenSize, double ca
                     ),
                     child: getUnknown(vocab),
                   )),
-              new FlatButton(
-                  padding: new EdgeInsets.all(0.0),
+              new TextButton(
+                  style: ButtonStyle(
+                    padding: MaterialStateProperty.all<EdgeInsets>(
+                        EdgeInsets.all(0)),
+                  ),
                   onPressed: () {},
                   child: new Container(
                     height: 60.0,

@@ -50,7 +50,7 @@ class _TFAnswerButtonState extends State<TFAnswerButton> {
     if(widget.answer == widget.correctAnswer) correctness = true;
     else correctness = false;
 
-    return FlatButton(
+    return TextButton(
       onPressed: ()=> widget.updateParent(
           correct: correctness,
           //contxt: widget.parentContext,

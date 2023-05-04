@@ -78,8 +78,11 @@ Positioned ActiveCard(
                         child: new Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: <Widget>[
-                            new FlatButton(
-                                padding: new EdgeInsets.all(0.0),
+                            new TextButton(
+                                style: ButtonStyle(
+                                  padding: MaterialStateProperty.all<EdgeInsets>(
+                                      EdgeInsets.all(0)),
+                                ),
                                 onPressed: () {
                                   swipeLeft();
                                   updateKnown(vocab: vocab, index: index, state: '0');
@@ -95,8 +98,11 @@ Positioned ActiveCard(
                                   ),
                                   child: getUnknown(vocab)
                                 )),
-                            new FlatButton(
-                                padding: new EdgeInsets.all(0.0),
+                            new TextButton(
+                                style: ButtonStyle(
+                                  padding: MaterialStateProperty.all<EdgeInsets>(
+                                      EdgeInsets.all(0)),
+                                ),
                                 onPressed: () {
                                   swipeRight(vocab);
                                   updateKnown(vocab: vocab, index: index, state: '1');
