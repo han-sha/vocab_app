@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
@@ -13,13 +18,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4be3f10f-494f-42de-b2f5-ded22e6fcc57" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/UI/exit_alert.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/UI/exit_alert.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/card/active_card.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/card/active_card.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/helpers/cardwidget_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/helpers/cardwidget_helper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/navbuttons/answer_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/navbuttons/answer_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/navbuttons/level_up_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/navbuttons/level_up_button.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/navbuttons/tf_answer_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/navbuttons/tf_answer_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/com/hsha/vocabapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/com/hsha/vocabapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vocab_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vocab_app.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +78,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,6 +141,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="42" />
@@ -205,12 +218,18 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/hansha/Documents/vocab_app",
+    "last_opened_file_path": "/Users/hansha/Documents/vocab_app/android/app/src/main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "flutter.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/app/src/main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/navbuttons" />
       <recent name="$PROJECT_DIR$/lib/navigation" />
